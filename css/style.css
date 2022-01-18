@@ -20,3 +20,8 @@ header{
     background-color: goldenrod;
     margin: 1em 0;
 }
+
+.section-lightblue{
+    height: 70px;
+    background-color: aqua;
+}
