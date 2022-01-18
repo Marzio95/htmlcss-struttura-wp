@@ -25,3 +25,41 @@ header{
     height: 70px;
     background-color: aqua;
 }
+
+.contenitore{
+    background-color: blue;
+    padding: 20px 0;
+}
+
+.contenitore::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna{
+    height: 400px;
+    background-color: aqua;
+}
+
+.sx{
+    width: 20%;
+    float: left;
+}
+
+.dx{
+    width: 20%;
+    float: right;
+}
+
+.cntr{
+    width: calc(100% - 50%);
+    float: left;
+    margin: 0 5%;
+}
+    
+footer{
+    height: 50px;
+    background-color: blueviolet;
+    margin: 5px 0 15px 0;
+}
